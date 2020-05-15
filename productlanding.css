@@ -1,0 +1,20 @@
+#header {
+    position: fixed;
+    display: inline-flex;
+    top: 0;
+    left: 0;
+    height:20%;
+    overflow: hidden;
+}
+@media (min-width: 0px) {
+    #header-img {
+        height: 100%;
+        float: left;
+    }
+    #nav-bar {
+        float:right;
+    }
+    #product {
+      background-color: blue;
+    }
+}

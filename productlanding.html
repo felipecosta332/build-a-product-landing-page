@@ -1,12 +1,53 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" type="text/css" 
-        href="productlanding.css"/>
+        <link rel="stylesheet" type="text/css" href="productlanding.css"/>
         <title>Build a Product Landing Page</title>
     </head>
     <body>
-        <script src="https://cdn.freecodecamp.org/
-        testable-projects-fcc/v1/bundle.js"></script>
+        <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>      
+        <header id="header">
+            <img id="header-img" src="https://i.pinimg.com/736x/98/16/20/981620497bd85030fcc2e2149774a9de.jpg"/>
+            <nav id="nav-bar">
+                <ul>
+                    <li><a class="nav-link" href="#about">About</a></li>
+                    <li><a class="nav-link" href="#product">Products</a></li>
+                    <li><a class="nav-link" href="#price">Prices</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div id="about">
+            <iframe 
+                id="video"
+                width="560" 
+                height="315" 
+                src="https://www.youtube.com/embed/ctAVC2JwEwI" 
+                frameborder="0" 
+                allow="
+                    accelerometer; 
+                    autoplay; 
+                    encrypted-media; 
+                    gyroscope; 
+                    picture-in-picture" 
+                allowfullscreen>
+            </iframe>
+        </div>
+        <div id="product"></div>
+        <div id="price">
+            <form 
+                id="form"
+                action="https://www.freecodecamp.com/email-submit">
+                    <input 
+                        id="email" 
+                        type="email" 
+                        name="email"
+                        placeholder="Enter your email"
+                    />
+                    <input 
+                        id="submit" 
+                        type="submit"
+                    />
+            </form>
+        </div>
     </body>
 </html>
